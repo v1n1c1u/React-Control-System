@@ -3,7 +3,7 @@ import React from "react";
 
 const footer = props =>
     <footer className="footer">
-        Footer
+        Vinícius Souza
     </footer>
 
 export default footer;
