@@ -1,12 +1,13 @@
 import './logo.css';
 import React from 'react';
-import logo from '../assets/images/logo512.png';
+import logo from '../../assets/images/logo512.png';
+import { Link } from 'react-router-dom';
 
 const logoImage = props =>
     <aside className='logo'>
-        <a href="/" className="logo">
+        <Link to="/" className="logo">
             <img src={logo} alt="Logo" />
-        </a>
+        </Link>
     </aside>
 
 export default logoImage;
