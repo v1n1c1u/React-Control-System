@@ -11,3 +11,13 @@ aside.logo img {
     padding: 0px 15px;
     width: 50%;
 }
+
+@media  screen and (max-width: 768px) {
+    aside.logo img {
+        padding: 0px 15px;
+        width: 100px;
+    }
+    aside.logo a {
+        text-align: center;
+    }
+}
